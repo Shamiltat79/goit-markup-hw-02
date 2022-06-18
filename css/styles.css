@@ -22,6 +22,7 @@ body {
     font-size: 14px;
     line-height: var(--primary-line-height);
    }
+
    h2 {
     font-weight: 700;
     font-size: 36px;
@@ -55,8 +56,20 @@ body {
    
    }
    .navlist {
-    list-style: none;
-    
+    list-style: none;    
+   }
+   .mail-link {
+    font-family: var(--font-family-primary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: var(--primary-line-height);
+    color: #757575;
+    text-decoration: none;
+   }
+   .mail-link:hover,
+   .mail-link:active,
+   .mail-link:focus {
+   color: var(--color-accent)
    }
    .tel-link {
     font-family: var(--font-family-primary);
@@ -72,13 +85,18 @@ body {
    }
    .hero {
     background-color: #2f303a;
+   
+   }
+   .hero-title {
     color: var(--accent-text-color);
-    font-family: var(--font-family-primary);
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
+        font-family: var(--font-family-primary);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+
    }
    .hero-button {
     background-color: var(--color-accent);
@@ -89,6 +107,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     cursor: pointer;
+    text-align: center;
    }
    .features-list {
     list-style: none;
@@ -96,19 +115,27 @@ body {
    .features-list h3 {
     font-weight: 700;
     font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.14;
    }
    .features-list p {
     line-height: 1.71;
+    letter-spacing: 0.03em;
    }
    .servis-list {
    list-style: none;
    }
    .team-list {
     list-style: none;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
    }
    .team-list p {
     color: #757575;
     font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
    }
    .example-list {
     list-style: none;
@@ -123,6 +150,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
 
 }
 .navbutton:active {
@@ -153,17 +181,18 @@ footer {
     color: var(--accent-text-color);
 }
 .contacts a {
-    opacity: 60%;
-    text-decoration: none;
-    color: var(--accent-text-color);
+       text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);;
 }
 .examples h3 {
 font-weight: 700;    
 font-size: 18px;  
 line-height: 2;
+letter-spacing: 0.06em;
 }
 .example-list p {
     color: #757575;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
 }
