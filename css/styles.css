@@ -120,6 +120,10 @@ body {
     line-height: 1.14;
    }
    .features-list p {
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
     line-height: 1.71;
     letter-spacing: 0.03em;
    }
