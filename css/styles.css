@@ -146,6 +146,18 @@ body {
    }
 
    /*button*/
+   .button-list {
+   display: flex;
+   list-style: none;
+      }
+.button-list> .button-item:not(:last-child) {
+    margin-right: 10px;
+}
+ 
+
+ 
+
+   
    .navbutton { 
     color: var(--primary-text-color);
     background-color: var(--button-color);
@@ -155,6 +167,8 @@ body {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
+    padding: 10px;
+    margin: 0;
 
 }
 .navbutton:active {
